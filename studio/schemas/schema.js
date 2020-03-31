@@ -7,6 +7,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 // Document types
 import category from './documents/category'
 import person from './documents/person'
+import product from './documents/product'
 import sampleProject from './documents/sampleProject'
 import siteSettings from './documents/siteSettings'
 
@@ -35,6 +36,7 @@ export default createSchema({
     // in the studio.
     category,
     person,
+    product,
     sampleProject,
     siteSettings
   ])
